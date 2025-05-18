@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+ENV/
+env/
+*.log
+
+# VSCode e outros editores
+.vscode/
+.idea/
+*.swp
+
+# Arquivos de ambiente e segredos
+.env
+.env.*
+*.env
+secrets.json
+config.yaml
+
+# Dados pessoais do projeto
+tasks.json
+profile.json
+
+# Streamlit cache e artefatos
+.streamlit/
+**/.streamlit/
+
+# Arquivos temporários e backup
+*.bak
+*.tmp
+*.orig
+*~
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
